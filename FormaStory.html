@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <title>Form A Story</title>
+</head>
+
+<body>
+
+
+    <!--=============================================
+     =           Header section comment block            =
+    =============================================-->
+
+    <div class="header_section">
+        <section id=top_section>
+            <img src="./assets/images/attachment_122457783.jpeg" alt="Browser does not support image">
+        </section>
+    </div>
+
+    <!--=====  End of Header Section comment block  ======-->
+
+
+    <!--=============================================
+     =          Main section comment block            =
+    =============================================-->
+
+    <div>
+        <main id="main_section">
+            <br>
+            <h1>Complete the form-<br>Complete the Story</h1>
+            <hr>
+            <div class="form_details">
+                <form id="detail_form" action="Storyentry.html" method="GET">
+
+                    <div class="inputs">Animal:</div>
+                    <input type="text" id="i1" name="animal_name" placeholder="Enter animal name" required>
+                    <br>
+
+                    <div class="inputs">Another Animal:</div>
+                    <input type="text" id="i2" name="another_name" placeholder="Enter another name" required><br>
+
+                    <div class="inputs">One More Animal:</div>
+                    <input type="text" id="i3" name="one_more_anm" placeholder="Enter one more" required><br>
+
+                    <div class="inputs">Adjective(past tense):</div>
+                    <input type="text" id="i4" name="adjective_input" placeholder="Enter adjective" required><br>
+
+                    <div class="inputs">Verb(ends in -ng):</div>
+                    <input type="text" id="i5" name="verbs_input" placeholder="Enter verbs" required><br>
+
+                    <div class="inputs">Number:</div>
+                    <input type="number" id="i6" name="number_input" min="0" placeholder="Enter number" required><br>
+
+                    <div class="inputs">Yes or No: </div><br>
+                    <div class="fradio">
+                        <input type="radio" id="i7" name="answer" value="Yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="i8" name="answer" value="No">
+                        <label for="no">No</label><br>
+                    </div>
+
+                    <div class="inputs">Relative speed(ends in -er):</div><br>
+                    <select id="i9" name="i9">
+                        <option value="faster">Faster</option> 
+                        <option value="quicker">Quicker</option>
+                        <option value="speedier">Speedier</option>   
+                    </select>
+                    <br>
+
+                    <div class="inputs">Motivational Quote:</div>
+                    <select id="i10" name="i10" required>
+                        <option value="example1">example1</option> 
+                        <option value="example2">example2</option>
+                        <option value="example3">example3</option> 
+                        <option value="example4">example4</option>    
+                    </select>
+                    <br>
+
+                    <div class="inputs">Meaningful Message:</div>
+                    <textarea id="i11" rows="6" cols="60" placeholder="Enter meaningful"></textarea>
+                    <br><br>
+                    <div class="submit_button">
+                        <input type="submit" id="b1" value="Form My Story!">
+                    </div>
+                    <div class="inputs"></div>
+
+                </form>
+
+
+
+
+
+            </div>
+
+        </main>
+    </div>
+
+    <!--=====  End of Main Section comment block  ======-->
+
+
+    <!--=============================================
+        =          Footer section comment block            =
+       =============================================-->
+    <div>
+        <footer>
+            <div>
+                <h4 class="footer">&copy; All rights reserved with
+                    <span>DESIGN PVT. LTD.</span>
+                </h4>
+            </div>
+        </footer>
+    </div>
+
+    <!--=====  End of Footer Section comment block  ======-->
+
+    <script src="./assets/js/formstory.js"></script>
+</body>
+
+</html>

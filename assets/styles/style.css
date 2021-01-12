@@ -1,0 +1,115 @@
+ * {
+     font-family: 'Bangers', cursive;
+     font-family: 'Jura', sans-serif;
+ }
+ /* body  css */
+ 
+ body {
+     background-color: wheat;
+     text-align: center;
+ }
+ /* body css */
+ /* top section css */
+ 
+ #top_section {
+     background-color: white;
+     margin: 2% 10%;
+     border-radius: 15px;
+ }
+ 
+ #top_section img {
+     display: block;
+     width: 15%;
+     margin: 0 auto;
+ }
+ /* top section css end */
+ /* main section css */
+ 
+ #main_section {
+     background-color: rgba(63, 59, 59, 0.199);
+     margin: 2% 10%;
+     border-radius: 15px;
+ }
+ 
+ #main_section h1 {
+     text-align: center;
+ }
+ 
+ #form_details {
+     width: 800px;
+     margin: 0 auto;
+ }
+ /* main section css end */
+ 
+ .form_details #i1,
+ .form_details #i2,
+ .form_details #i3,
+ .form_details #i4,
+ .form_details #i5,
+ .form_details #i6,
+ .form_details #i9,
+ .form_details #i10,
+ .form_details #i11 {
+     width: 50%;
+     height: 30px;
+     margin-top: 20px;
+     border-radius: 8px;
+     border: 3px solid rgb(218, 183, 28);
+     color: rgb(236, 118, 20);
+     font-size: 15px;
+     text-align: center;
+ }
+ 
+ #i7,
+ #i8 {
+     font-size: 15px;
+     width: 10%;
+     height: 15px;
+     border-radius: 3px;
+     background-color: rgb(236, 118, 20);
+ }
+ 
+ .inputs {
+     font-size: 20px;
+     padding-top: 10px;
+ }
+ 
+ .form_details {
+     margin-top: 25px;
+     padding-bottom: 50px;
+ }
+ 
+ #b1 {
+     width: 20%;
+     font-weight: bold;
+     padding: 10px;
+     background-color: wheat;
+     border-radius: 2px;
+     border: 3px solid rgb(218, 183, 28);
+     color: rgb(236, 118, 20);
+ }
+ 
+ #b1:hover {
+     border: 2px solid #a0b3a0;
+     color: #dd791c;
+     background-color: white;
+ }
+ 
+ #i9 {
+     width: 50%;
+     height: 40px;
+     background-color: wheat;
+     border-radius: 8px;
+     border: 3px solid rgb(218, 183, 28);
+     color: rgb(236, 118, 20);
+     font-size: 15px;
+ }
+ 
+ .footer {
+     color: #b40f1d;
+     font-family: sans-serif;
+ }
+ 
+ .footer span {
+     color: #0f0e0e;
+ }
